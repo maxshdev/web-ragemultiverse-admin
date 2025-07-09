@@ -1,0 +1,67 @@
+{
+  "Public": {
+    "HomePage": {
+      "welcome": "Bienvenido a MiApp",
+      "about": "Esta es la página principal de la parte pública."
+    },
+    "Header": {
+      "home": "Inicio",
+      "login": "Ingresar",
+      "register": "Registrarse",
+      "contact": "Contacto"
+    }
+  },
+  "Admin": {
+    "Conmon": {
+      "loading": "Cargando...",
+      "error": "Error",
+      "success": "Éxito",
+      "warning": "Advertencia",
+      "info": "Información",
+      "not_found": "No encontrado",
+      "unauthorized": "No autorizado",
+      "forbidden": "Prohibido",
+      "open_menu": "Abrir menú",
+      "actions": "Acciones",
+      "show": "Ver",
+      "edit": "Editar",
+      "delete": "Eliminar"
+    },
+    "Sidebar": {
+      "dashboard": "Tablero Principal",
+      "users_management": {
+        "title": "Gestión de Usuarios",
+        "list": "Listar Todos"
+      },
+      "cards_management": {
+        "title": "Gestión de Cartas",
+        "list": "Listar Todas"
+      },
+      "support": "Soporte",
+      "feednack": "Comentarios",
+      "faq": "Preguntas Frecuentes",
+      "profile": {
+        "updgrade_to_pro": "Actualizar a Pro",
+        "account_settings": "Configuración de Cuenta",
+        "billing": "Facturación",
+        "notifications": "Notificaciones",
+        "logout": "Cerrar Sesión"
+      }
+    },
+    "Cards": {
+      "code": "Código",
+      "name": "Nombre",
+      "rarity": "Rareza",
+      "attribute": "Atributo",
+      "species": "Especie",
+      "cost": "Costo",
+      "version": "Versión"
+    },
+    "Users": {
+      "id": "ID",
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "role": "Rol"
+    }
+  }
+}

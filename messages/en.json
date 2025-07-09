@@ -1,0 +1,67 @@
+{
+  "Public": {
+    "HomePage": {
+      "welcome": "Welcome to MiApp",
+      "about": "This is the main page of the public section."
+    },
+    "Header": {
+      "home": "Home",
+      "login": "Login",
+      "register": "Register",
+      "contact": "Contact"
+    }
+  },
+  "Admin": {
+    "Conmon": {
+      "loading": "Loading...",
+      "error": "Error",
+      "success": "Success",
+      "warning": "Warning",
+      "info": "Information",
+      "not_found": "Not found",
+      "unauthorized": "Unauthorized",
+      "forbidden": "Forbidden",
+      "open_menu": "Open menu",
+      "actions": "Actions",
+      "show": "Show",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "Sidebar": {
+      "dashboard": "Dashboard",
+      "users_management": {
+        "title": "User Management",
+        "list": "List All"
+      },
+      "cards_management": {
+        "title": "Card Management",
+        "list": "List All"
+      },
+      "support": "Support",
+      "feednack": "Feedback",
+      "faq": "Frequently Asked Questions",
+      "profile": {
+        "updgrade_to_pro": "Upgrade to Pro",
+        "account_settings": "Account Settings",
+        "billing": "Billing",
+        "notifications": "Notifications",
+        "logout": "Logout"
+      }
+    },
+    "Cards": {
+      "code": "Code",
+      "name": "Name",
+      "rarity": "Rarity",
+      "attribute": "Attribute",
+      "species": "Species",
+      "cost": "Cost",
+      "version": "Version"
+    },
+    "Users": {
+      "id": "ID",
+      "name": "Name",
+      "email": "Email",
+      "role": "Role"
+    }
+  }
+}
