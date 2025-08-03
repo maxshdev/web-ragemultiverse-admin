@@ -14,7 +14,7 @@ export function PublicHeader() {
     <header className="bg-white border-b">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="text-xl font-bold">
-          MiApp
+          Rage Multiverse Admin
         </Link>
         <nav className="space-x-4">
           <Link href="/">

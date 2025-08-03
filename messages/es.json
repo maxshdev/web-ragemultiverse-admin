@@ -1,8 +1,8 @@
 {
   "Public": {
     "HomePage": {
-      "welcome": "Bienvenido a MiApp",
-      "about": "Esta es la página principal de la parte pública."
+      "welcome": "Bienvenido a Rage Multiverse Admin",
+      "about": "Esta es la página principal."
     },
     "Header": {
       "home": "Inicio",
@@ -55,7 +55,15 @@
       "attribute": "Atributo",
       "species": "Especie",
       "cost": "Costo",
-      "version": "Versión"
+      "version": "Versión",
+      "damage": "Daño",
+      "image": "Imagen",
+      "mission": "Misión",
+      "legend": "Leyenda",
+      "edit_card": "Editar carta",
+      "save": "Guardar",
+      "saving": "Guardando",
+      "loading": "Cargando"
     },
     "Users": {
       "id": "ID",

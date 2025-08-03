@@ -1,3 +1,4 @@
+// web-ragemultiverse-admin\src\app\[locale]\admin\cards\page.tsx
 "use client";
 
 import { useEffect, useState } from "react";

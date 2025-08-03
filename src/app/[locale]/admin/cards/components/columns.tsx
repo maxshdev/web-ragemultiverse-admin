@@ -1,7 +1,9 @@
+// web-ragemultiverse-admin\src\app\[locale]\admin\cards\components\columns.tsx
 "use client"
 
 import { ColumnDef } from "@tanstack/react-table";
 import { MoreHorizontal, ArrowUpDown  } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -93,6 +95,7 @@ export function getCardColumns(t: (key: string) => string): ColumnDef<Card>[] {
       id: "actions",
       header: t("Conmon.actions"),
       cell: ({ row }) => {
+        const router = useRouter();
         const rowSelected = row.original;
         
         return (
@@ -107,7 +110,7 @@ export function getCardColumns(t: (key: string) => string): ColumnDef<Card>[] {
               <DropdownMenuLabel>{ t("Conmon.actions") }</DropdownMenuLabel>
               <DropdownMenuSeparator />
               <DropdownMenuItem onClick={() => navigator.clipboard.writeText(rowSelected.id)}>{ t("Conmon.show") }</DropdownMenuItem>
-              <DropdownMenuItem onClick={() => navigator.clipboard.writeText(rowSelected.id)}>{ t("Conmon.edit") }</DropdownMenuItem>
+              <DropdownMenuItem onClick={() => router.push(`./cards/${rowSelected.id}`)}>{ t("Conmon.edit") }</DropdownMenuItem>
               <DropdownMenuItem onClick={() => navigator.clipboard.writeText(rowSelected.id)}>{ t("Conmon.delete") }</DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
