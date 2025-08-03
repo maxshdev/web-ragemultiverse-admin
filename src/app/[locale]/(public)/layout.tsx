@@ -1,4 +1,4 @@
-// app/(public)/layout.tsx
+// web-ragemultiverse-admin\src\app\[locale]\(public)\layout.tsx
 import { ReactNode } from "react";
 import { PublicHeader } from "@/components/layout/header";
 

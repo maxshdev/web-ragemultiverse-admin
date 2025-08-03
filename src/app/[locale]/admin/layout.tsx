@@ -1,4 +1,4 @@
-// app/admin/layout.tsx
+// web-ragemultiverse-admin\src\app\[locale]\admin\layout.tsx
 'use client';
 
 import { ReactNode } from 'react';
